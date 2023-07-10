@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div class="maindiv">
+
+        <div class="ali1" id="logic_form ">
+
+
+            <form class="form">
+                <label>username</label>
+                <input type="text" name="" id="username">
+                <label for="">password</label>
+                <label for="password"></label>
+                <input type="password" name="" id="pass">
+                <label for="">city</label>
+                <input type="city" name="" id="">
+                <label for="">cell number </label>
+                <input type="cell number " name="" id="">
+                <label for="">date</label>
+                <input type="date">
+                
+                <input type="submit" value="submit" id="btn">
+
+            </form>
+            <div id="display">
+
+            </div>
+        </div>
+
+    </div>
+    <script>
+        const btn = document.getElementById("btn")
+
+        btn.addEventListener("click", function chk(){
+            let username = document.getElementById("username").value
+            let password = document.getElementById("pass").value
+
+            console.log(username)
+            console.log(password)
+
+
+
+        })
+    </script>
+
+</body>
+
+</html>

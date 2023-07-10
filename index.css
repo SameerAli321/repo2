@@ -1,0 +1,47 @@
+ /* .sumer{
+    height: 50px;
+
+  background-color: #d12828;
+  border-radius: 50%;
+ text-align: right;
+ align-items: right;
+ display: flex;
+ justify-content: right;
+ */
+
+
+
+
+
+
+ /* }  */
+
+ .maindiv{
+    height: 100vh;
+    display: grid;
+    place-items: center;
+ }
+ .sumer1 {
+     height: 50vh;
+
+     display: flex;
+     align-items: center;
+     direction: center;
+     justify-content: center;
+     background-color: black;
+
+ }
+
+ .ali1 {}
+
+ .form {
+     height: 50vh;
+     width: 50vh;
+     display: flex;
+     flex-direction: column;
+     gap: 5px;
+     justify-content: center;
+     align-items: center;
+
+     background-color: rgb(253, 248, 248);
+ }
